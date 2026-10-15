@@ -2,24 +2,24 @@
 
 <img src=".github/assets/icon.png" width="120" alt="">
 
-# PCS Program Tool
+# 3DPCS Controller Tool
 
 **Set up, update and customize your Polybar guitar controller.**<br>
 Windows · Mac · Linux. Nothing to install.
 
 <br>
 
-[<img src="https://img.shields.io/badge/Download-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows">](https://github.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/releases/latest/download/PCS-Program-Tool-Windows.exe)
+[<img src="https://img.shields.io/badge/Download-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows">](https://github.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/releases/latest/download/3DPCS-Controller-Tool-Windows.exe)
 &nbsp;
-[<img src="https://img.shields.io/badge/Download-Mac-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Mac">](https://github.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/releases/latest/download/PCS-Program-Tool-Mac.dmg)
+[<img src="https://img.shields.io/badge/Download-Mac-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Mac">](https://github.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/releases/latest/download/3DPCS-Controller-Tool-Mac.dmg)
 &nbsp;
-[<img src="https://img.shields.io/badge/Download-Linux-E95420?style=for-the-badge&logo=linux&logoColor=white" alt="Download for Linux">](https://github.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/releases/latest/download/PCS-Program-Tool-Linux.AppImage)
+[<img src="https://img.shields.io/badge/Download-Linux-E95420?style=for-the-badge&logo=linux&logoColor=white" alt="Download for Linux">](https://github.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/releases/latest/download/3DPCS-Controller-Tool-Linux.AppImage)
 
 <br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/assets/app-dark.png">
-  <img src=".github/assets/app-light.png" width="860" alt="PCS Program Tool showing a Polybar controller, its live inputs and light settings">
+  <img src=".github/assets/app-light.png" width="860" alt="3DPCS Controller Tool showing a Polybar controller, its live inputs and light settings">
 </picture>
 
 </div>
