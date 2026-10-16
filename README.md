@@ -62,6 +62,11 @@ Controllers with wireless built in play over Bluetooth whenever they're unplugge
 - Controllers, solderless kits and parts: [threepieces.net](https://threepieces.net/)
 - Build your own: [Polybar System on Printables](https://www.printables.com/model/277183-polybar-system-3d-printed-guitar-controllers)
 
+## License
+
+Free for personal, non-commercial use with our controllers and kits. The tool and firmware are proprietary: no
+copying, reverse engineering or reuse in other configurators. Full terms: [LICENSE.md](LICENSE.md).
+
 <br>
 
 <div align="center"><sub>© 2026 3D Printed Controller Systems · Three Pieces Controllers</sub></div>
