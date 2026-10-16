@@ -62,6 +62,17 @@ Controllers with wireless built in play over Bluetooth whenever they're unplugge
 - Controllers, solderless kits and parts: [threepieces.net](https://threepieces.net/)
 - Build your own: [Polybar System on Printables](https://www.printables.com/model/277183-polybar-system-3d-printed-guitar-controllers)
 
+## Free, and our own code
+
+The 3DPCS Controller Tool and the firmware it installs are **free**. We don't charge for them. If someone sold you
+this app, you can download it free from this page.
+
+Everything that makes the tool and our firmware work is written by 3D Printed Controller Systems. It is closed source
+and not based on Santroller or any other configurator. Like almost all software, it is built on a few standard
+open-source building blocks (Tauri, Svelte, the Raspberry Pi Pico SDK, TinyUSB, Bluetooth). Their licences let them be
+used in closed-source products and only ask that we list them: see
+[THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt), also in the app under **About › Licences**.
+
 ## License
 
 Free for personal, non-commercial use with our controllers and kits. The tool and firmware are proprietary: no
