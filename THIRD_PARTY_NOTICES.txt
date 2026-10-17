@@ -60,7 +60,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 ====================================================================================================
-Pico-PIO-USB 0.7.2 (Polylink firmware, USB-A auth port) (MIT)
+Pico-PIO-USB (main after 0.7.2) (Polylink firmware, USB-A port) (MIT)
 ----------------------------------------------------------------------------------------------------
 MIT License
 
