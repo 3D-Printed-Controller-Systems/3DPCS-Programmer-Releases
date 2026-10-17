@@ -35,7 +35,7 @@ That's it. Your settings live on the controller, so they go wherever it goes.
 
 ## Make it yours
 
-- **Colour sets:** Default plus up to five of your own, with names. Click any fret or button to pick its idle and pressed colour, add an effect (Wave, Breathe, Shift), set the brightness, or start from a preset like Synthwave or Cotton Candy. Switch sets right on the guitar: hold strum and click the joystick.
+- **Colour sets:** up to five of your own, with names (Set 1 starts with the Polybar colours, and every set is editable). Click any fret or button to pick its idle and pressed colour, add an effect (Wave, Breathe, Shift), set the brightness, or start from a preset like Synthwave or Cotton Candy. Switch sets right on the guitar: hold strum and click the joystick.
 - **Star power lights:** tilt the neck and your lights fade into crackling electric waves. Electric Blue, Violet Storm, Gold Lightning, Toxic, Crimson, White Hot or Plasma Pink, picked per colour set.
 - **Plays the way you hold it:** right- or left-handed is detected on its own. Fast strumming won't set off star power by accident, and a full whammy push always reads as full.
 
@@ -58,7 +58,7 @@ Controllers with wireless built in play over Bluetooth whenever they're unplugge
 
 ## Need help?
 
-- Join the [Discord](https://discord.gg/2qrFx3mJ9F): we're happy to help with setup, builds and anything else.
+- Join the [Discord](https://discord.gg/2RZSukqS6Y): we're happy to help with setup, builds and anything else.
 - Controllers, solderless kits and parts: [threepieces.net](https://threepieces.net/)
 - Build your own: [Polybar System on Printables](https://www.printables.com/model/277183-polybar-system-3d-printed-guitar-controllers)
 
@@ -69,7 +69,8 @@ this app, you can download it free from this page.
 
 Everything that makes the tool and our firmware work is written by 3D Printed Controller Systems. It is closed source
 and not based on any other configurator. Like almost all software, it is built on a few standard
-open-source building blocks (Tauri, Svelte, the Raspberry Pi Pico SDK, TinyUSB, Bluetooth). Their licences let them be
+open-source building blocks (Tauri, Svelte, the Raspberry Pi Pico SDK, TinyUSB, Bluetooth, and Pico-PIO-USB for the
+Polylink's USB port). Their licences let them be
 used in closed-source products and only ask that we list them: see
 [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt), also in the app under **About › Licences**.
 
