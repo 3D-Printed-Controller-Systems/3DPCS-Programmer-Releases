@@ -68,7 +68,7 @@ The 3DPCS Controller Tool and the firmware it installs are **free**. We don't ch
 this app, you can download it free from this page.
 
 Everything that makes the tool and our firmware work is written by 3D Printed Controller Systems. It is closed source
-and not based on Santroller or any other configurator. Like almost all software, it is built on a few standard
+and not based on any other configurator. Like almost all software, it is built on a few standard
 open-source building blocks (Tauri, Svelte, the Raspberry Pi Pico SDK, TinyUSB, Bluetooth). Their licences let them be
 used in closed-source products and only ask that we list them: see
 [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt), also in the app under **About › Licences**.
