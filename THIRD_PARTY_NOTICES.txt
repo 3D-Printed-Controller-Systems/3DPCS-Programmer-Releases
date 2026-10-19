@@ -4,13 +4,13 @@ The 3DPCS Controller Tool and the controller firmware are written by 3D Printed 
 code is original and closed source; it is not based on any other configurator.
 
 Like almost all software, the app and firmware are built on standard open-source building blocks, listed
-below with their licences. These are permissive licences: they allow use in closed-source products and only
+below with their licenses. These are permissive licenses: they allow use in closed-source products and only
 ask that their notices are included, which is what this file does. None of them require our code to be open.
 
 445 components.
 
-50 distinct licence texts follow. Each lists the components that use it, with their copyright
-notices, followed by the licence text.
+50 distinct license texts follow. Each lists the components that use it, with their copyright
+notices, followed by the license text.
 
 ====================================================================================================
 Raspberry Pi Pico SDK (firmware) (BSD-3-Clause)
@@ -269,7 +269,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ====================================================================================================
-cyw43-driver (firmware, wireless chip) (Raspberry Pi licence for RP-series chips)
+cyw43-driver (firmware, wireless chip) (Raspberry Pi license for RP-series chips)
     Copyright (C) 2019-2022 George Robotics Pty Ltd
 ----------------------------------------------------------------------------------------------------
 Raspberry Pi Ltd (Licensor) hereby grants to you a non-exclusive license to
@@ -303,7 +303,7 @@ This software is also available from the copyright owner under different
 terms (see ./LICENSE)
 
 ====================================================================================================
-BTstack (firmware, Bluetooth) (Raspberry Pi licence for Pico W / RM2 products)
+BTstack (firmware, Bluetooth) (Raspberry Pi license for Pico W / RM2 products)
 ----------------------------------------------------------------------------------------------------
 “BlueKitchen” shall refer to BlueKitchen GmbH.
 “Raspberry Pi” shall refer to Raspberry Pi Ltd.
@@ -3535,8 +3535,8 @@ PackageDownloadLocation: git+ssh://github.com/tauri-apps/wry.git
 Creator: Person: Daniel Thompson-Yvetot
 
 ====================================================================================================
-These packages name their licence but ship no separate licence file; the standard text of each
-licence named is included above:
+These packages name their license but ship no separate license file; the standard text of each
+license named is included above:
 ----------------------------------------------------------------------------------------------------
 alloc-stdlib 0.3.0 (BSD-3-Clause)
 block2 0.6.2 (MIT)
