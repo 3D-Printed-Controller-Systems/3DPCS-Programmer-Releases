@@ -72,12 +72,12 @@ and not based on any other configurator. Like almost all software, it is built o
 open-source building blocks (Tauri, Svelte, the Raspberry Pi Pico SDK, TinyUSB, Bluetooth, and Pico-PIO-USB for the
 Polylink's USB port). Their licences let them be
 used in closed-source products and only ask that we list them: see
-[THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt), also in the app under **About › Licences**.
+[THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt), also in the app under **About › Show licenses**.
 
 ## License
 
-Free for personal, non-commercial use with our controllers and kits. The tool and firmware are proprietary: no
-copying, reverse engineering or reuse in other configurators. Full terms: [LICENSE.md](LICENSE.md).
+For personal, non-commercial use with our controllers and projects. It isn't meant to be a paid app. Provided as
+is, without warranty. Full terms: [LICENSE.md](LICENSE.md).
 
 <br>
 
