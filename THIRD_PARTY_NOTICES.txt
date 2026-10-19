@@ -1,11 +1,8 @@
 3DPCS Controller Tool - third-party notices
 
-The 3DPCS Controller Tool and the controller firmware are written by 3D Printed Controller Systems. Our own
-code is original and closed source; it is not based on any other configurator.
-
-Like almost all software, the app and firmware are built on standard open-source building blocks, listed
-below with their licenses. These are permissive licenses: they allow use in closed-source products and only
-ask that their notices are included, which is what this file does. None of them require our code to be open.
+Like almost all software, this app and the controller firmware are built on standard open-source building
+blocks, listed below with their licenses. These licenses ask that their notices are included with the
+software, which is what this file does.
 
 445 components.
 
