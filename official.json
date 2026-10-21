@@ -23,6 +23,16 @@
       "sha256": "6aa9bd4f9afc04869159ed984c7478dde2bbf519cb413de0c7cb18ed673c1438"
     },
     {
+      "id": "3dpcs.randomizer",
+      "version": "0.1.0",
+      "sha256": "58c38c993f1e5008deaa6b1a700fdca8d878a4c854ab1b0bc330367721c3455e"
+    },
+    {
+      "id": "3dpcs.simon-says",
+      "version": "0.1.0",
+      "sha256": "c2c134374affbe2704b180560de45adc1dbd3e5928c3a85f5c9d1029ff003e9c"
+    },
+    {
       "id": "3dpcs.soft-pastels",
       "version": "1.0.0",
       "sha256": "901c80be41ccfbb53676301d6ec589a8d86d6aab032d2ca001800b18fc860364"
