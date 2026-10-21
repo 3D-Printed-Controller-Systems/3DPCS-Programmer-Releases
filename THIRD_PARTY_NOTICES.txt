@@ -4,7 +4,7 @@ Like almost all software, this app and the controller firmware are built on stan
 blocks, listed below with their licenses. These licenses ask that their notices are included with the
 software, which is what this file does.
 
-493 components.
+494 components.
 
 52 distinct license texts follow. Each lists the components that use it, with their copyright
 notices, followed by the license text.
@@ -12,6 +12,9 @@ notices, followed by the license text.
 ====================================================================================================
 Raspberry Pi Pico SDK (firmware) (BSD-3-Clause)
     Copyright 2020 (c) 2020 Raspberry Pi (Trading) Ltd.
+pico_i2c_slave, part of the Pico SDK (Hammer-On firmware, neck boards) (BSD-3-Clause)
+    Copyright (c) 2021 Valentin Milea <valentin.milea@gmail.com>
+    Copyright (c) 2023 Raspberry Pi (Trading) Ltd.
 ed25519-dalek 2.2.0 (BSD-3-Clause)
     Copyright (c) 2017-2019 isis agora lovecruft. All rights reserved.
 moxcms 0.8.1 (BSD-3-Clause OR Apache-2.0)
