@@ -1,0 +1,31 @@
+{
+  "format": "3dpcs-official",
+  "version": 1,
+  "packs": [
+    {
+      "id": "3dpcs.fret-keys",
+      "version": "0.1.0",
+      "sha256": "2ecd80e9e28e61f1fd925f92cd20acfe4bf92537528c8add683ca773c3297da0"
+    },
+    {
+      "id": "3dpcs.fret-midi",
+      "version": "0.1.0",
+      "sha256": "b0ed24560dba8e01c360a2409684bb4259b12502d0349967730f3291ae1bb1ef"
+    },
+    {
+      "id": "3dpcs.neon-nights",
+      "version": "1.0.0",
+      "sha256": "6d6da1c645c8d0ad30a75aceefd0d38eaf1e5b14a0e20ab809178da96a3d49c3"
+    },
+    {
+      "id": "3dpcs.rainbow-chase",
+      "version": "0.1.0",
+      "sha256": "6aa9bd4f9afc04869159ed984c7478dde2bbf519cb413de0c7cb18ed673c1438"
+    },
+    {
+      "id": "3dpcs.soft-pastels",
+      "version": "1.0.0",
+      "sha256": "901c80be41ccfbb53676301d6ec589a8d86d6aab032d2ca001800b18fc860364"
+    }
+  ]
+}
