@@ -7,6 +7,8 @@ is Official in the app when its exact file hash is in this catalog (current or o
 - Add a pack:     drop the .3dpack into packs/ and push.
 - Update a pack:  replace the file with the new version (higher "version" in its manifest) and push. The old file's
                   hash moves to "older", so copies people already have still count as official and show Update.
+- Flavor text:    notes.json maps a pack id to one short line the Pack Manager shows under its name
+                  ("Requires LEDs"); edit it like any file.
 - Retire a pack:  delete the file. It stays in the catalog as "retired" (not offered, still trusted); delete its
                   entry from catalog.json by hand to stop trusting it.
 Standard library only. Usage: python3 tools/make_catalog.py [--check]
@@ -62,6 +64,7 @@ def read(path):
 
 def main():
     old = {p["id"]: p for p in json.loads(OUT.read_text()).get("packs", [])} if OUT.exists() else {}
+    notes = json.loads((ROOT / "notes.json").read_text()) if (ROOT / "notes.json").exists() else {}
     new = {}
     for f in sorted(x for x in PACKS.iterdir() if x.is_file() and not x.name.startswith(".")):
         e = read(f)
@@ -73,6 +76,7 @@ def main():
                 sys.exit(f"{f.name}: the file changed but its version {e['version']} is not higher than {prev['version']}")
             older.append({"version": prev["version"], "sha256": prev["sha256"]})
         if older: e["older"] = older
+        if notes.get(e["id"]): e["note"] = notes[e["id"]]
         new[e["id"]] = e
     for pid, p in old.items():          # file removed: retired, still trusted
         if pid not in new:

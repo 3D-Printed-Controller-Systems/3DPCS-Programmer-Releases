@@ -1,0 +1,6 @@
+{
+ "3dpcs.fret-keys": "Plays as a USB keyboard",
+ "3dpcs.fret-midi": "Adds a USB MIDI device",
+ "3dpcs.simon-says": "Requires LEDs",
+ "3dpcs.xbox-360-compatibility": "For Xbox 360 consoles"
+}
