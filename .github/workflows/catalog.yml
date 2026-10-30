@@ -1,0 +1,23 @@
+# Pack catalog: every push to this branch rebuilds catalog.json from packs/*.3dpack and commits it.
+# The app's Pack Manager reads catalog.json from this branch. Proprietary - 3D Printed Controller Systems.
+name: catalog
+on:
+  push:
+    branches: [packs]
+    paths: ["packs/**", "tools/make_catalog.py", ".github/workflows/catalog.yml"]
+  workflow_dispatch:
+concurrency: { group: catalog, cancel-in-progress: false }
+jobs:
+  catalog:
+    runs-on: ubuntu-24.04
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v5
+      - run: python3 tools/make_catalog.py
+      - name: Commit catalog.json
+        run: |
+          if git diff --quiet -- catalog.json; then echo "catalog.json unchanged"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Catalog: $(python3 -c "import json;print(', '.join(p['name']+' '+p['version'] for p in json.load(open('catalog.json'))['packs'] if not p.get('retired')))" | cut -c1-200)" -- catalog.json
+          git push origin HEAD:packs
