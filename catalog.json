@@ -198,7 +198,7 @@
   {
    "id": "3dpcs.console-classics",
    "name": "Console Classics",
-   "version": "1.1.0",
+   "version": "1.2.0",
    "author": "3D Printed Controller Systems",
    "kind": "colors",
    "description": "Colors from the controllers we grew up with",
@@ -210,61 +210,65 @@
      "name": "Gray Brick",
      "idle": [
       "#ffffff",
-      "#ff1010",
-      "#ffb000",
-      "#a0b4ff",
-      "#ff4060"
+      "#e0e8ff",
+      "#c8d4ff",
+      "#f0f0ff",
+      "#d8e0ff"
      ]
     },
     {
      "name": "Super Purple",
      "idle": [
-      "#00ff40",
-      "#ff0000",
-      "#ffd000",
-      "#0040ff",
-      "#8040ff"
+      "#8040ff",
+      "#a060ff",
+      "#c080ff",
+      "#7030ff",
+      "#b090ff"
      ]
     },
     {
      "name": "Swirl Orange",
      "idle": [
-      "#00ff40",
-      "#ff0000",
-      "#ffe000",
-      "#0060ff",
-      "#ff6000"
+      "#ff6000",
+      "#ff8000",
+      "#ffa000",
+      "#ff4000",
+      "#ff9040"
      ]
     },
     {
      "name": "Duke Green",
      "idle": [
       "#00ff00",
-      "#ff0000",
-      "#ffd800",
-      "#0040ff",
-      "#ffffff"
+      "#40ff20",
+      "#80ff00",
+      "#00ff60",
+      "#a0ff40"
      ]
     },
     {
      "name": "Indigo Cube",
      "idle": [
-      "#00ff60",
-      "#ff1020",
-      "#ffd000",
       "#5a3cff",
-      "#a040ff"
+      "#6a50ff",
+      "#4030ff",
+      "#7a60ff",
+      "#8a70ff"
      ]
     }
    ],
-   "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAACq0lEQVR42u3dMW7jMBBGYYnIIba0Ox8jR9gyR0i55ZYuXabcI2yZI/gY7qIyt8g2WxlROBSZxBK/VxozNKD/cUgBBjwMAACgR8bP/oLd7vDmMdcxTZdxNQIIfF1CjILvW4RR8H2LkIS/fmpyGAXf9zRIwu97GiTh9y1BEn7fEiTh9y1B8pj6Jtn9fU+BJPy+JXAEOALs/p6ngAlgAtj9PU8BE8AEAAFAAOd/n/cAE8AEAAFAABAAHXLXesHj8Xeg5hRe79fPv9map+eH8Hov95dszf58iN+qX35ka6b9a3i9+92fbM15erzNCRAJv6QuEn5JXST8krpI+CV1kfBL6r5UgGio0fpoqNH6aKjR+mio0frSUFtJkL4j/Fxfafi5vtLwc32l4ef6lobZQoL0XeHP9S8Nf65/afhz/UvDn+uvDbG231uA10AQAAQAAUAAEAAEAAFAABAABAABQAAQAAQAAUAAEAAEAAFAABAABAABQAAQAAQAAUAAEAAEAAFAABAABAABQAAQAAQAAUAAEAAEAAFAABAABAABQAAQAAQAAUAAEAAEAAFAABAABMCNCXA8npr2Pz0/VK133b8/H6rWu+6f9q9V6133n6fHqvVq+xv9ffypad9SCeb6lkow17dUgrm+pSHWht/0CCiVIFdfKkGuvlSCXH2pBLn60jBbhN/8DhCVIFoXlSBaF5UgWheVIFoXDbVV+MMwDOP1B7vd4c3VaNtM02X0FgACgAAE8AgIAAK8f0PEtt8ATAAQgAAggHtAn+e/CYB5AUyB7e9+EwAfC2AKbHv3hyYACbYbviMAMQFMgW3u/qIJQILthV98BJBgW+EvugOQYDvhD8M7PwotwQ9I1xt8k7cA02Dd4VdPANNgvcE3F4AI6wr+0wQgxG0HDgDAf/4Bx3L/63893EcAAAAASUVORK5CYII=",
-   "url": "https://raw.githubusercontent.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/packs/packs/3DPCS-Console%20Classics%201.1.0.3dpack",
-   "sha256": "91745f06566f541df81d799ddce5dc4d48d47be07535c18a34d07ee7517ec256",
-   "size": 3112,
+   "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAACnklEQVR42u3aMXLbMBBGYRLjY6SgOukGHlc6So7mo6jy+AZRZxa+h9OkUsxgQcCxSHyv3oUk/g8LcEbDAAAAemT86g+YpuOHx1zHPF/HzQgg8G0JMQq+bxFGwfctQhL+9qnJYRR839MgCb/vaZCE37cESfh9S5CE37cEyWPqm2T39z0FkvD7lsAR4Aiw+3ueAiaACWD39zwFTAATAAQAAZz/fd4DTAATAAQAAUAAdMhD6wUvr7+yNefHU3i9n1N+vec5vt7b+ZqtOVyO4fXmt/x60yG+3tOP/O99eT/d5wSIhF9SFwm/pC4SfkldJPySukj4JXX/VYBoqNH6aKjR+mio0fpoqNH60lBbSZC+I/xcX2n4ub7S8HN9peHn+taG2UKC9F3hL/WvDX+pf234S/1rw1/qrw2xtt9bgNdAEAAEAAFAABAABAABQAAQAAQAAUAAEAAEAAFAABAABAABQAAQAAQAAUAAEAAEAAFAABAABAABQAAQAAQAAUAAEAAEAAFAABAABAABQAAQAAQAAUAAEAAEAAFAABAABAABQAAQAATAnQlwfjw17X+e69a77T9cjlXr3fZPh7r1bvtf3ut+b21/kwmwVoKlvrUSLPWtlWCpb60ES31rQ6wNv+kRUCpBrr5Uglx9qQS5+lIJcvWlYbYIv/kdICpBtC4qQbQuKkG0LipBtC4aaqvwh2EYxr++7HT8cDXaN/N8Hb0FgAAgAAE8AgKAAJ/fELHvNwATAAQgAAjgHtDn+W8CYFkAU2D/u98EwL8FMAX2vftDE4AE+w3fEYCYAKbAPnd/0QQgwf7CLz4CSLCv8FfdAUiwn/CH4ZM/hZbgD6TbDb7JW4BpsO3wqyeAabDd4JsLQIRtBf9lAhDivgMHAOAPvwHR7P/rnhg/MgAAAABJRU5ErkJggg==",
+   "url": "https://raw.githubusercontent.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/packs/packs/3DPCS-Console%20Classics%201.2.0.3dpack",
+   "sha256": "e96926f7269f3544d802a3e08076b014321c692a6b1a2f1896d22b54a6eeaba6",
+   "size": 3107,
    "older": [
     {
      "version": "1.0.0",
      "sha256": "a9791a4f7f9d42310cdc0571367e6ed45149e61a9f950e82610b558b1b91b9cd"
+    },
+    {
+     "version": "1.1.0",
+     "sha256": "91745f06566f541df81d799ddce5dc4d48d47be07535c18a34d07ee7517ec256"
     }
    ]
   },
