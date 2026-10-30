@@ -5,7 +5,7 @@
   {
    "id": "3dpcs.fret-keys",
    "name": "Fortnite Festival Compatibility",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "author": "3DPCS",
    "kind": "mod",
    "description": "Plays Fortnite Festival as a keyboard with the game's own keys already set",
@@ -13,7 +13,8 @@
     "polybar",
     "monoboard",
     "hammeron",
-    "riffstick"
+    "riffstick",
+    "phunkwii"
    ],
    "mods": [
     {
@@ -22,13 +23,17 @@
     }
    ],
    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABWklEQVR42u3coQ3DMBBAUU8SBQR0CE9i3CEySSbpEMUdIrgbXAoNLetApTzw6ck6PXaSy7puoftWLAEAiwBAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAD0lwDKu6bWzz6XR2r97O+npNbPXtqZWj879pIaAAAAAEASgBr7VCMAoj2nGgEQv1fMNAKgHTHVEIBXnQsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcgxyDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA+wKQH0IEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACACldwFgFKQjFIz9zwAAAABJRU5ErkJggg==",
-   "url": "https://raw.githubusercontent.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/packs/packs/3DPCS-Fortnite%20Festival%20Compatibility%201.0.0.3dpack",
-   "sha256": "595d1ff37f54553af241c11abfc11a0a6078bbe4ecf8d711b2c422a9f7342029",
-   "size": 2560,
+   "url": "https://raw.githubusercontent.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/packs/packs/3DPCS-Fortnite%20Festival%20Compatibility%201.0.1.3dpack",
+   "sha256": "c482f9500d4a24c25a84fd46ea95de59c0f8582d96796c193319579b4facb792",
+   "size": 2570,
    "older": [
     {
      "version": "0.1.1",
      "sha256": "8353a50a9085780b20decf426e64ffb8a9ed93277c37683c05cca9a167c2ab6e"
+    },
+    {
+     "version": "1.0.0",
+     "sha256": "595d1ff37f54553af241c11abfc11a0a6078bbe4ecf8d711b2c422a9f7342029"
     }
    ],
    "note": "Plays Fortnite Festival as a keyboard",
