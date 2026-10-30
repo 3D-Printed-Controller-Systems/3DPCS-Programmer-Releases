@@ -9,6 +9,8 @@ is Official in the app when its exact file hash is in this catalog (current or o
                   hash moves to "older", so copies people already have still count as official and show Update.
 - Flavor text:    notes.json maps a pack id to one short line the Pack Manager shows under its name
                   ("Requires LEDs"); edit it like any file.
+- Can't run together: rules.json lists pairs of pack ids whose mods must never be on at the same time in one
+                  controller profile (Fortnite Festival vs Xbox 360 Compatibility, ...). The app enforces them.
 - Retire a pack:  delete the file. It stays in the catalog as "retired" (not offered, still trusted); delete its
                   entry from catalog.json by hand to stop trusting it.
 Standard library only. Usage: python3 tools/make_catalog.py [--check]
@@ -65,6 +67,10 @@ def read(path):
 def main():
     old = {p["id"]: p for p in json.loads(OUT.read_text()).get("packs", [])} if OUT.exists() else {}
     notes = json.loads((ROOT / "notes.json").read_text()) if (ROOT / "notes.json").exists() else {}
+    rules = json.loads((ROOT / "rules.json").read_text()) if (ROOT / "rules.json").exists() else {}
+    clash = {}
+    for a, b in rules.get("conflicts", []):
+        clash.setdefault(a, set()).add(b); clash.setdefault(b, set()).add(a)
     new = {}
     for f in sorted(x for x in PACKS.iterdir() if x.is_file() and not x.name.startswith(".")):
         e = read(f)
@@ -77,6 +83,7 @@ def main():
             older.append({"version": prev["version"], "sha256": prev["sha256"]})
         if older: e["older"] = older
         if notes.get(e["id"]): e["note"] = notes[e["id"]]
+        if clash.get(e["id"]): e["conflicts"] = sorted(clash[e["id"]])
         new[e["id"]] = e
     for pid, p in old.items():          # file removed: retired, still trusted
         if pid not in new:

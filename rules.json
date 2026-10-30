@@ -1,0 +1,7 @@
+{
+ "conflicts": [
+  ["3dpcs.xbox-360-compatibility", "3dpcs.fret-keys"],
+  ["3dpcs.xbox-360-compatibility", "3dpcs.fret-midi"],
+  ["3dpcs.fret-keys", "3dpcs.fret-midi"]
+ ]
+}

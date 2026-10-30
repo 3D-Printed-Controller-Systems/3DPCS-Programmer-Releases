@@ -4,7 +4,7 @@ name: catalog
 on:
   push:
     branches: [packs]
-    paths: ["packs/**", "notes.json", "tools/make_catalog.py", ".github/workflows/catalog.yml"]
+    paths: ["packs/**", "notes.json", "rules.json", "tools/make_catalog.py", ".github/workflows/catalog.yml"]
   workflow_dispatch:
 concurrency: { group: catalog, cancel-in-progress: false }
 jobs:

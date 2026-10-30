@@ -4,29 +4,38 @@
  "packs": [
   {
    "id": "3dpcs.fret-keys",
-   "name": "Fret Keys",
-   "version": "0.1.1",
+   "name": "Fortnite Festival Compatibility",
+   "version": "1.0.0",
    "author": "3DPCS",
    "kind": "mod",
-   "description": "Turns the controller into a USB keyboard",
+   "description": "Plays Fortnite Festival as a keyboard with the game's own keys already set",
    "boards": [
     "polybar",
     "monoboard",
     "hammeron",
     "riffstick"
    ],
-   "firmware": ">=0.9.84",
    "mods": [
     {
-     "name": "Fret Keys",
-     "description": "Frets type letters, numbers or F keys"
+     "name": "Fortnite Festival Compatibility",
+     "description": "Fortnite Festival keys by default, or letters, numbers or F keys"
     }
    ],
    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABWklEQVR42u3coQ3DMBBAUU8SBQR0CE9i3CEySSbpEMUdIrgbXAoNLetApTzw6ck6PXaSy7puoftWLAEAiwBAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAD0lwDKu6bWzz6XR2r97O+npNbPXtqZWj879pIaAAAAAEASgBr7VCMAoj2nGgEQv1fMNAKgHTHVEIBXnQsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcgxyDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA+wKQH0IEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACACldwFgFKQjFIz9zwAAAABJRU5ErkJggg==",
-   "url": "https://raw.githubusercontent.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/packs/packs/3DPCS-Fret%20Keys%200.1.1.3dpack",
-   "sha256": "8353a50a9085780b20decf426e64ffb8a9ed93277c37683c05cca9a167c2ab6e",
-   "size": 1926,
-   "note": "Plays as a USB keyboard"
+   "url": "https://raw.githubusercontent.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/packs/packs/3DPCS-Fortnite%20Festival%20Compatibility%201.0.0.3dpack",
+   "sha256": "595d1ff37f54553af241c11abfc11a0a6078bbe4ecf8d711b2c422a9f7342029",
+   "size": 2560,
+   "older": [
+    {
+     "version": "0.1.1",
+     "sha256": "8353a50a9085780b20decf426e64ffb8a9ed93277c37683c05cca9a167c2ab6e"
+    }
+   ],
+   "note": "Plays Fortnite Festival as a keyboard",
+   "conflicts": [
+    "3dpcs.fret-midi",
+    "3dpcs.xbox-360-compatibility"
+   ]
   },
   {
    "id": "3dpcs.fret-midi",
@@ -52,7 +61,11 @@
    "url": "https://raw.githubusercontent.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/packs/packs/3DPCS-Fret%20MIDI%200.1.1.3dpack",
    "sha256": "80209ec71604dec79e76e0af3680072d126864ea6f74ee9bbc54d19d1c0a9014",
    "size": 2499,
-   "note": "Adds a USB MIDI device"
+   "note": "MIDI instrument mode",
+   "conflicts": [
+    "3dpcs.fret-keys",
+    "3dpcs.xbox-360-compatibility"
+   ]
   },
   {
    "id": "3dpcs.simon-says",
@@ -99,7 +112,11 @@
    "url": "https://raw.githubusercontent.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/packs/packs/3DPCS-Xbox%20360%20Compatibility%200.1.4.3dpack",
    "sha256": "87ab4136657e26ba94db0d384714e382017e0642b5cf004ef5428abdb1c111b9",
    "size": 35220,
-   "note": "For Xbox 360 consoles"
+   "note": "For Xbox 360 consoles",
+   "conflicts": [
+    "3dpcs.fret-keys",
+    "3dpcs.fret-midi"
+   ]
   },
   {
    "id": "3dpcs.candy-shop",
