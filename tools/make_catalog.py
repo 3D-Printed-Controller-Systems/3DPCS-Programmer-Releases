@@ -30,11 +30,15 @@ def ver(v):
 
 
 def read(path):
+    if path.suffix != ".3dpack":
+        sys.exit(f"packs/{path.name}: only .3dpack files go in packs/ (rename it to .3dpack if it's a pack)")
     data = path.read_bytes()
     if len(data) > MAX_PACK: sys.exit(f"{path.name}: over 2 MB")
     with zipfile.ZipFile(path) as z:
         files = {n: z.read(n) for n in z.namelist() if not n.endswith("/")}
-    m = json.loads(files["manifest.json"])
+    if "manifest.json" not in files: sys.exit(f"{path.name}: no manifest.json")
+    try: m = json.loads(files["manifest.json"])
+    except ValueError as e: sys.exit(f"{path.name}: manifest.json is not valid JSON ({e})")
     if m.get("format") != "3dpcs-pack": sys.exit(f"{path.name}: not a 3DPCS pack")
     c = m.get("contents", {})
     e = {"id": m["id"], "name": m["name"], "version": m["version"], "author": m.get("author", ""),
@@ -59,7 +63,7 @@ def read(path):
 def main():
     old = {p["id"]: p for p in json.loads(OUT.read_text()).get("packs", [])} if OUT.exists() else {}
     new = {}
-    for f in sorted(PACKS.glob("*.3dpack")):
+    for f in sorted(x for x in PACKS.iterdir() if x.is_file() and not x.name.startswith(".")):
         e = read(f)
         if e["id"] in new: sys.exit(f"{f.name}: id {e['id']} is in packs/ twice (keep only the newest file)")
         prev = old.get(e["id"])
