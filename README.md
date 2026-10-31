@@ -9,4 +9,4 @@ The packs the 3DPCS Controller Tool offers in its **Pack Manager**. The app read
 - **Retire a pack:** delete the file. It stops being offered; copies people have keep working.
 
 A mod is official only when its exact file is in this catalog, so check a mod before adding it
-(`python developer/mods/tools/pcspack.py check <pack>` in the dev repo). Color packs people make themselves don't go here.
+(`python3 tools/mods/tools/pcspack.py check <pack>` in the dev repo). Color packs people make themselves don't go here.
