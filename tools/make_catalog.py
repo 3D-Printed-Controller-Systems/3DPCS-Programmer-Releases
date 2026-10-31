@@ -52,13 +52,12 @@ def read(path):
         if m.get(k): e[k] = m[k]
     if c.get("mods"):
         e["mods"] = [{"name": x.get("name", ""), "description": x.get("description", "")} for x in c["mods"]]
-    pal = c.get("palettes") or c.get("color_sets")      # color_sets: the name before 2026-10-31
+    pal = c.get("palettes")
     if pal:
         e["palettes"] = []
         for s in pal:
             d = json.loads(files[s])
             e["palettes"].append({"name": d.get("name", ""), "idle": [d.get("lights", {}).get(f, {}).get("idle", "") for f in FRETS]})
-        e["sets"] = e["palettes"]                      # the same swatches for apps from before the rename (0.4.9 and older)
     icon = files.get(m.get("icon", ""))
     if icon and len(icon) <= MAX_ICON and icon[:8] == b"\x89PNG\r\n\x1a\n":
         e["icon"] = "data:image/png;base64," + base64.b64encode(icon).decode()
