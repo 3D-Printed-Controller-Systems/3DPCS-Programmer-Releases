@@ -46,17 +46,19 @@ def read(path):
     if m.get("format") != "3dpcs-pack": sys.exit(f"{path.name}: not a 3DPCS pack")
     c = m.get("contents", {})
     e = {"id": m["id"], "name": m["name"], "version": m["version"], "author": m.get("author", ""),
-         "kind": "mod" if c.get("mods") else "colors", "description": m.get("description", ""),
+         "kind": "mod" if c.get("mods") else "palettes", "description": m.get("description", ""),
          "boards": m.get("boards", ["*"])}
     for k in ("firmware", "min_app"):
         if m.get(k): e[k] = m[k]
     if c.get("mods"):
         e["mods"] = [{"name": x.get("name", ""), "description": x.get("description", "")} for x in c["mods"]]
-    if c.get("color_sets"):
-        e["sets"] = []
-        for s in c["color_sets"]:
+    pal = c.get("palettes") or c.get("color_sets")      # color_sets: the name before 2026-10-31
+    if pal:
+        e["palettes"] = []
+        for s in pal:
             d = json.loads(files[s])
-            e["sets"].append({"name": d.get("name", ""), "idle": [d.get("lights", {}).get(f, {}).get("idle", "") for f in FRETS]})
+            e["palettes"].append({"name": d.get("name", ""), "idle": [d.get("lights", {}).get(f, {}).get("idle", "") for f in FRETS]})
+        e["sets"] = e["palettes"]                      # the same swatches for apps from before the rename (0.4.9 and older)
     icon = files.get(m.get("icon", ""))
     if icon and len(icon) <= MAX_ICON and icon[:8] == b"\x89PNG\r\n\x1a\n":
         e["icon"] = "data:image/png;base64," + base64.b64encode(icon).decode()
