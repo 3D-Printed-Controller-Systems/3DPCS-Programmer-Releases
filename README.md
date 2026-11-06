@@ -36,8 +36,8 @@ Questions or need a hand? Ask us on Discord
 
 ## First time opening it
 
-- **Windows:** double-click the file. The app is signed, so Windows knows who made it. For a short while after a new version comes out, Windows may still say "Windows protected your PC": click **More info**, then **Run anyway**.
-- **Mac:** open the `.dmg`, drag the app to Applications and open it. The app is signed and checked by Apple, so your Mac only asks once whether to open an app from the internet: click **Open**.
+- **Windows:** double-click the file. If Windows says "Windows protected your PC", click **More info**, then **Run anyway**.
+- **Mac:** open the `.dmg` and drag the app to Applications.
 - **Linux:** right-click the file, choose **Properties**, turn on **Allow executing as a program**, then double-click it.
 
 ## About
