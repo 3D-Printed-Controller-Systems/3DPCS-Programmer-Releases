@@ -24,7 +24,7 @@ PACKS = ROOT / "packs"
 OUT = ROOT / "catalog.json"
 RAW = "https://raw.githubusercontent.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/packs/packs/"
 MAX_PACK = 2 * 1024 * 1024
-MAX_ICON = 24 * 1024
+MAX_ICON = 64 * 1024     # the same limit the app has for a pack icon
 ZONES = ["primary", "secondary", "action", "menu"]   # palette version 2: colors by zone (the app fits them to each product)
 
 
