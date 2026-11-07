@@ -38,7 +38,11 @@ Questions or need a hand? Ask us in #3dpcs-tool-talk on our Discord
 
 - **Windows:** double-click the file. If Windows says "Windows protected your PC", click **More info**, then **Run anyway**.
 - **Mac:** open the `.dmg` and drag the app to Applications.
-- **Linux:** right-click the file, choose **Properties**, turn on **Allow executing as a program**, then double-click it.
+- **Linux:** open a terminal, paste this and press Enter. It adds the app to your app menu and lets it talk to your controllers (asks for your password once):
+  ```
+  curl -fsSL https://github.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/releases/latest/download/install-linux.sh | sh
+  ```
+  Prefer the single file? Download the `.AppImage`, right-click it, choose **Properties**, turn on **Allow executing as a program**, then double-click it.
 
 ## About
 
