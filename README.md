@@ -14,7 +14,7 @@
 &nbsp;
 [<img src="https://img.shields.io/badge/Download-Linux-E95420?style=for-the-badge&logo=linux&logoColor=white" alt="Download for Linux">](https://github.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/releases/latest)
 
-Questions or need a hand? Ask us on Discord
+Questions or need a hand? Ask us in #3dpcs-tool-talk on our Discord
 
 [<img src="https://img.shields.io/badge/Join_the_Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join the Discord">](https://discord.gg/KJAABNy5zV)
 
