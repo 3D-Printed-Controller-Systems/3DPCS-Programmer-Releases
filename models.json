@@ -1,0 +1,15 @@
+{
+  "format": "3dpcs-models",
+  "version": 1,
+  "models": [
+    {
+      "id": "polybar",
+      "name": "Polybar",
+      "version": "0.1.5",
+      "description": "The Polybar Micro, Mini and Max with every frame and headstock, for Designs",
+      "url": "https://raw.githubusercontent.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/models/polybar-0.1.5.3dpack",
+      "sha256": "a77a6e82617f6d636d9a56d1560d80c9d34e5463e0a33b6b03d5468cc2bd7ce7",
+      "size": 46710025
+    }
+  ]
+}
