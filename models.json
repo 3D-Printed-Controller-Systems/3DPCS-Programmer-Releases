@@ -5,11 +5,11 @@
     {
       "id": "polybar",
       "name": "Polybar",
-      "version": "0.1.5",
+      "version": "0.1.7",
       "description": "The Polybar Micro, Mini and Max with every frame and headstock, for Designs",
-      "url": "https://raw.githubusercontent.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/models/polybar-0.1.5.3dpack",
-      "sha256": "a77a6e82617f6d636d9a56d1560d80c9d34e5463e0a33b6b03d5468cc2bd7ce7",
-      "size": 46710025
+      "url": "https://raw.githubusercontent.com/3D-Printed-Controller-Systems/3DPCS-Programmer-Releases/models/polybar-0.1.7.3dpack",
+      "sha256": "a8da77408ef0868445a78046e0dc5ab6e2be7363fa9e75b2cbe521345b62d0c0",
+      "size": 46710070
     }
   ]
 }
