@@ -46,7 +46,7 @@ Questions or need a hand? Ask us in #3dpcs-tool-talk on our Discord
 
 ## About
 
-The 3DPCS Controller Tool and its firmware are written by 3D Printed Controller Systems and aren't based on any other configurator. They use a few standard open-source parts (Tauri, Svelte, the Raspberry Pi Pico SDK, TinyUSB, BTstack and Pico-PIO-USB for USB port access), listed in [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
+The 3DPCS Controller Tool and its firmware are written by 3D Printed Controller Systems and aren't based on any other configurator. They use a few standard open-source parts (Tauri, Svelte, three.js, replicad, Clipper, the Raspberry Pi Pico SDK, TinyUSB, BTstack and Pico-PIO-USB for USB port access), listed in [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
 
 For personal, non-commercial use, provided as is. Full terms: [LICENSE.md](LICENSE.md).
 
